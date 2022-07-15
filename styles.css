@@ -1,0 +1,183 @@
+body{
+    margin:0 auto;
+    width:1720px;
+    height:100vh;
+    background-image: url(bg1.png);
+}
+*::selection{
+    background-color: white;
+    color:black;
+}
+header{
+    width:1440px;
+    height:967px;
+    margin:0 140px 0 135px;
+    background-image: url(bg1.png);
+    font-family: 'Nunito';
+}
+.contacts{
+    height: 28px;
+    font-size:16px;
+    left:20%;
+    right:0%;
+    top:0px;
+    display: flex;
+    position: absolute;
+}
+.phoneimg{
+    margin-top:1.07%;
+    margin-right:0.5%;
+    height: 28px;
+    left:0%;
+    right:0%;
+    top:0px;
+    background: orange;
+    padding:5px;
+    width:11.73px;
+    height:11.89px;
+    position: relative;
+    border-radius: 2px;
+    transition:  width 0.2s, height 0.2s;
+}
+
+.tgimg{
+    width:11.95;
+    height:11.94;
+    background-color: orange;
+    padding:5px;
+    margin-top:1.07%;
+    margin-left:1.5%;
+    margin-right:0.5%;
+    position: relative;
+    border-radius: 2px;
+    transition:  width 0.2s, height 0.2s, box-shadow 0.2s;
+}
+.phoneimg:hover{
+    width:15px;
+    height:15px;
+    box-shadow:1px 1px 10px white;
+}
+.tgimg:hover{
+    width:15px;
+    height:15px;
+    box-shadow:1px 1px 10px white;
+}
+.twitticon{
+    height: 70%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:39%;
+    transition:  padding 0.4s;
+}
+.twitticon:hover{
+    padding:10px;
+}
+.fcbicon{
+    width:10px;
+    height: 60%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:2%;
+    transition:  padding 0.4s;
+}
+.fcbicon:hover{
+    padding:10px;
+}
+.linkdicon{
+    height: 60%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:2%;
+    transition:  padding 0.4s;
+}
+.linkdicon:hover{
+    padding:10px;
+}
+.pinterest{
+    height: 75%;
+    border-radius: 0px;
+    position: relative;
+    margin-top:1.07%;
+    margin-left:2%;
+    transition:  padding 0.4s;
+}
+.pinterest:hover{
+    padding:10px;
+}
+.navdiv{
+    position: relative;
+    width:1160px;
+    height:94px;
+    border-radius:10px;
+    margin-top:4%;
+    margin-left:140px;
+    background-color:white;
+    display:flex;
+}
+.logoimg{
+    padding-top:40px;
+    padding-left:15.92px;
+    padding-bottom:37.83px;
+    padding-right:170px;
+    width:85.61px;
+    height:16.74px;
+    display:inline;
+}
+.home{
+    padding:35px 30px 35px 10px;
+    margin-top:0;
+}
+.home:hover{
+ opacity:0.2;
+ cursor:pointer;
+}
+button{
+    background: rgba(244, 171, 0, 1);
+    border-radius: 40px;
+    width:120px;
+    height:49px;
+    color:white;
+    margin-top:22px;
+    margin-left:90px;
+    border-style:none;
+    transition: box-shadow 0.7s;
+}
+button:hover{
+    opacity:0.7;
+    box-shadow: 0px 1px 1px 1px black;
+    cursor:pointer;
+}
+.infodiv{
+    line-height: 1.6;
+    margin-left:140px;
+    margin-top:105px;
+    font-size:60px;
+    font-style:'Nutrino';
+    font-weight:600;
+    display:flex;
+}
+.p{
+    margin: 15px;
+}
+.bgphoto{
+    margin-left:120px;
+    width:738px;
+    height:530px;
+}
+.afterheaddiv{
+
+}
+.bottomlinephoto{
+    max-width:1770px;
+    width:100%;
+    margin-top:100px;
+    border-radius: 15px;
+}
+.button1{
+    margin-left:1px;
+    width:186px;
+    height:52px
+}
